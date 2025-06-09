@@ -1,21 +1,18 @@
-# PythonDailyNotes-Skillbout
+# 🧠 Python Daily Notes – Skillbout Classes
 
-## GCD AND LCM - 26-05-2025
-```python
+This repository contains my **daily class practices** from the Skillbout Logic Building classes in Python. Each file corresponds to a day's practice session.
 
-## gcd
-def gcd(n1, n2):
-    while(n2 != n1):
-        if n1 > n2:
-            n1 = n1 - n2
-        else:
-            n2 = n2 - n1
-    return n1
+---
 
-## lcm = (n1 * n2) // gcd(n1, n2)
-def lcm (n1, n2):
-    return (n1 * n2) // gcd(n1, n2)
+## 📌 About
 
-print(lcm(2, 3))
+These exercises are designed to build a strong foundation in Python logic and problem-solving.  
+The classes are part of the **Skillbout training series** focused on beginner to intermediate coders.
 
-```
+---
+## 🛠️ How to Use
+
+- Clone the repo (download):
+   ```bash
+   git clone git@github.com:sameerthe8055/PythonDailyNotes-Skillbout.git
+   ```
