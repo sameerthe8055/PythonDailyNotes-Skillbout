@@ -58,6 +58,7 @@ def seq5(n):
         n=n//10
     return n*comp
 # print(seq5(-357909234))
+
 # 6 ip1: 1234 op: 234
 def seq6(n):
     if n<0:
@@ -86,8 +87,35 @@ def seq8(n,m):
     res = m * tens # 7700
     res = res + n % tens  #7734
     return res
-print(seq8(-12335654,-77))
+# print(seq8(-12335654,-77))
+
+# ip: 123456, 77 op: 12377456
+def seq9(n,m):
+    comp = 1
+    if n<0:
+        n = n * -1
+        comp *= -1
+    if m<0:
+        m = m * -1
+        comp *= -1
+    nLen = int_len(n) 
+    mLen = int_len(m)
+    if nLen % 2 == 0:
+        temp = n // 10**(nLen // 2)
+        temp = temp * (10 ** mLen)
+        temp += m
+        temp *= 10**(nLen // 2)
+        temp += n % 10**(nLen // 2)
+    else:
+        temp = n // 10 **((nLen // 2) + 1) 
+        temp = temp * (10 ** mLen)
+        temp += m
+        temp *= 10**((nLen // 2) +1)
+        temp += n % 10**((nLen // 2)+1)
+    return temp*comp
+print(seq9(1234567,77))
     
+        
 
 
 
