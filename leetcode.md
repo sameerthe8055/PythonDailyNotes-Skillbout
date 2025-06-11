@@ -107,3 +107,27 @@ class Solution:
         return True   
         
 ```       
+### 1952. Three Divisors
+```python
+class Solution:
+    def isThree(self, n: int) -> bool:
+        if n <0:
+            n = n*-1
+        if n ==1 or n ==2 or n == 0:
+            return False
+        count = 2
+        i=2
+        
+        while(i < (n/2 +1)):
+            if n%i == 0:
+                count += 1
+                i+=1
+            else:
+                i+=1
+            if count >3:
+                return False
+        if count == 3:
+            return True
+        else:
+            return False
+```       
