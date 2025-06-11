@@ -1,0 +1,92 @@
+# LeetCode question
+### 2520. Count the Digits That Divide a Number
+```python
+class Solution:
+    def countDigits(self, num: int) -> int:
+        ip = num
+        temp = 0
+        count = 0
+        while not(num <= 0):
+            temp = num%10 
+            if ip%temp == 0:
+                count+=1
+            num = num // 10 
+        return count 
+```
+
+### 231. Power of Two
+```python
+class Solution:
+    def countDigits(self, num: int) -> int:
+        ip = num
+        temp = 0
+        count = 0
+        while not(num <= 0):
+            temp = num%10 
+            if ip%temp == 0:
+                count+=1
+            num = num // 10 
+        return count 
+```
+
+```python
+class Solution:
+    def isPowerOfTwo(self, n: int) -> bool:
+        if  n & (n-1) == 0:
+            return True
+        else :
+            return False       
+         
+```
+### 326. Power of Three
+```python
+class Solution:
+    def isPowerOfThree(self, n: float) -> bool:
+        if n == 0:
+            return False
+        while not(n <= 0):
+            n = n/3.0
+        if n == 0:
+            return True
+        else :
+            return False
+    
+```
+```python
+class Solution:
+    def isPowerOfThree(self, n: int) -> bool:
+        if n == 1:
+            return True
+        if n < 1:
+            return False
+        temp = 1.0
+        while n > 3:#
+            n = n / 3
+        print(n)
+        if n == 3:
+            return True
+        else:
+            return False
+```
+### 367. Valid Perfect Square
+```python
+class Solution:
+    def isPerfectSquare(self, num: float) -> bool:
+        if num < 0:
+            return False
+        elif num == 1 or num == 4 or num == 0 :
+            return True
+        else:
+            i = 2
+            while( True):
+                temp = i*i
+                if temp == num:
+                    # print(f"temp: { temp }")
+                    return True
+                elif temp > num:
+                    # print(f"temp: { temp }")
+                    return False
+                else:
+                    i =i +1   
+        
+```       
