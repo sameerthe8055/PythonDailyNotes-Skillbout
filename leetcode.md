@@ -1,4 +1,39 @@
-# LeetCode question
+# LeetCode Questions – Number Logics 1
+
+- [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
+- [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
+- [Ugly Number](https://leetcode.com/problems/ugly-number/)
+- [Three Divisors](https://leetcode.com/problems/three-divisors/)
+- [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
+- [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+- [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)
+- [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)
+- [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+- [Power of Two](https://leetcode.com/problems/power-of-two/)
+- [Power of Three](https://leetcode.com/problems/power-of-three/)
+- [Power of Four](https://leetcode.com/problems/power-of-four/)
+- [Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)
+- [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)
+- [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
+- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+- [Arranging Coins](https://leetcode.com/problems/arranging-coins/)
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)
+- [Check If the Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)
+- [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+- [Add Digits](https://leetcode.com/problems/add-digits/)
+- [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)
+- [Divisor Game](https://leetcode.com/problems/divisor-game/)
+- [Find the Key of the Numbers](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) *(assumed based on title)*
+- [Nim Game](https://leetcode.com/problems/nim-game/)
+- [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
+- [Count Digits With Even Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)
+- [Count Operations To Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)
+
+### 412. Fizz Buzz
+```python
+```
 ### 2520. Count the Digits That Divide a Number
 ```python
 class Solution:
