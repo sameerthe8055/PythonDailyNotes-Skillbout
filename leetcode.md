@@ -144,3 +144,18 @@ class Solution:
                 num -= 1
         return steps
 ```       
+### 9. Palindrome Number
+```python
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        temp = x
+        result = 0
+        while(x>0):
+            result = result*10 + x % 10
+            x = x//10
+        if temp == result:
+            return True  
+        else:
+            print(result)
+            return False
+```       
