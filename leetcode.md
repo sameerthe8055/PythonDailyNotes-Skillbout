@@ -158,4 +158,78 @@ class Solution:
         else:
             print(result)
             return False
-```       
+```   
+### 50. Pow(x, n)
+```python
+class Solution:
+    def myPow(self, x: float, n: int) -> float:
+        return x**n
+
+```    
+### 2119. A Number After a Double Reversal
+```python
+class Solution:
+    def isSameAfterReversals(self, num: int) -> bool:
+        temp = num
+        result1 = 0
+        while(temp>0):
+            result1 = result1*10 + temp%10
+            temp = temp// 10
+        result2 = 0
+        temp = result1
+        while(temp>0):
+            result2 = result2*10 + temp%10
+            temp = temp//10
+        if num == result2:
+            return True
+        else:
+            print(f"result1: {result1} result2: {result2}")
+            return False
+```    
+### 2544. Alternating Digit Sum
+```python
+class Solution:
+    def alternateDigitSum(self, n: int) -> int:
+        val = n
+        len = 0
+        while(n >0):
+            len +=1
+            n //=10
+        sign = 1
+        if len%2 == 0:
+            sign = -1
+        sum = 0
+        while(val>0):
+            sum = sum + (val%10 )*sign
+            sign = sign  * -1
+            val = val//10 
+        return sum
+```    
+### 7. Reverse Integer
+```python
+class Solution:
+    def reverse(self, x: int) -> int:
+        sign = 1
+        if x<0:
+            x = x*-1
+            sign = -1
+        res = 0
+        while(x>0):
+            res = res*10 + x%10
+            x = x//10
+        res = res*sign
+        max = 1 << 31
+        if 0 > res < -max or 0 < res > (max - 1):
+            return 0
+        else:
+            return res    
+        
+```    
+###
+```python
+
+```    
+###
+```python
+
+```    
